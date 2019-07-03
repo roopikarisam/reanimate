@@ -12,7 +12,7 @@ html {
 
 @media screen and (min-width: 500px) {
     html {
-        font-size:calc(15px + 5 * ((100vw - 500px) / 900));
+        font-size:calc(13px + 5 * ((100vw - 500px) / 900));
     }
 }
 
@@ -33,16 +33,16 @@ img {
 }
 
 a {
-  color: #15F3A8;
+  color: #2adafe;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-    color: #1bdc9b;
+    color: #021b34;
   }
 }
 
 blockquote {
-  border-left: 5px solid #15F3A8;
+  border-left: 5px solid #2adafe;
   padding-left: 1.1rem;
   margin-left: 1.2rem;
   font-style: italic;
@@ -85,6 +85,7 @@ pre {
   bottom: 0;
   width: 20rem;
   padding: 2rem 1rem;
+  overflow-y: auto;
 }
 
 .sidebar-menu {
@@ -95,16 +96,17 @@ pre {
   }
   .menu-links {
     font-size: 1.2rem;
+    font-family: "Trebuchet MS" , sans-serif;
     text-transform: uppercase;
     display: block;
     text-decoration: none;
-    padding: 1rem 1.3rem;
+    padding: 1rem 2.3rem;
     color: #fff;
     font-weight: 700;
     transition: all .35s;
     &:hover {
       transform: translateY(3px);
-      background-color: #15F3A8;
+      background-color: #2adafe;
       color: #515151;
     }
   }
@@ -121,7 +123,7 @@ pre {
 .sidebar-logo {
   .logo {
     font-family: 'Finger Paint', cursive;
-    color: #15F3A8;
+    color: #2adafe;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 3rem;
@@ -162,21 +164,21 @@ pre {
   box-shadow: 0px 50px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
   .header-article, .page-header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: -0.5rem;
   }
   .wrap-content {
     background-color: #fff;
     padding: 1rem;
   }
   .title-article, .page-title, .post-title {
-    font-family: 'Finger Paint', cursive;
+    font-family: 'Trebuchet MS', sans-serif;
     margin-bottom: 0;
     transition: all .3s;
-    color: #15F3A8;
+    color: #2adafe;
     font-size: 2.5rem;
     margin-top: 0.67rem;
     a {
-      color: #15F3A8;
+      color: #2adafe;
       text-decoration: none;
     }
   }
@@ -213,7 +215,7 @@ img.post-image, img.page-img {
     text-transform: uppercase;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
     text-decoration: none;
-    background: #15F3A8;
+    background: #2adafe;
     transition: all .35s;
     &:hover {
       box-shadow: none;
@@ -271,7 +273,7 @@ img.post-image, img.page-img {
   text-transform: uppercase;
   padding: 1rem 1.5rem;
   color: #fff;
-  background: #15F3A8;
+  background: #2adafe;
   border: 0;
   border-radius: 0;
   outline: 0;
