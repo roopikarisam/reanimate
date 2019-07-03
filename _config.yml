@@ -4,7 +4,7 @@ title: Reanimate - Recovering Media Histories
 description: > # this means to ignore newlines until "baseurl:"
   Reanimate is an intersectional feminist publishing collective that recovers and publishes digital editions of writing by women in media.
 permalink: ':title/'
-baseurl: "/fresh" # the subpath of your site, e.g. /blog
+baseurl: "/reanimate" # the subpath of your site, e.g. /blog
 url: "http://roopikarisam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
