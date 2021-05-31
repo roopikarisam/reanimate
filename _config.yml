@@ -23,8 +23,6 @@ discus-identifier: # Add your Disqus identifier
 paginate: 5
 paginate_path: /page:num/
 
-remote_theme: qwtel/hydejack
-
 # Build settings
 markdown: kramdown
 gems:
